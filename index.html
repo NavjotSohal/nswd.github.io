@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 <body onload="checkStatus(),userStatus()">
 
@@ -201,7 +201,7 @@
         Skills
     </p>
     <div class="container skills-pack">
-        <div class="row d-flex flex-row justify-content-evenly flex-sm-column">
+        <div class="row d-flex flex-row justify-content-evenly">
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                 <div class="skills-item">
                     <svg width="120px" height="120px" viewBox="-52.5 0 361 361" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" class="skills-svg-icons">
@@ -688,6 +688,7 @@
 
 
 
+
 <script>
     
     var clock = new Date().getHours();
@@ -723,8 +724,6 @@
             document.getElementById("userStatusoffline").style.display="block";
         }
     }
-    
-    console.log(status);
 </script>
 
 </body>
