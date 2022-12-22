@@ -14,7 +14,12 @@ body{
     background:#050505 !important;
     position: relative;
     box-sizing: border-box;
-
+}
+.shapes-pack{
+    display:block ;
+}
+.shapes-pack-sm{
+    display: none;
 }
 .contain{
     scroll-snap-type: y mandatory;
@@ -35,6 +40,7 @@ body{
     align-content: space-between;
     height:80%;
 }
+
 .bdr-hl{
     border:1px solid red;
 }
@@ -723,4 +729,15 @@ text-align: center;
         text-align:justify;
         transform: translate(-50%,10%);
     }
+    .shapes-pack{
+        display: none ;
+    }
+    .shapes-pack-sm{
+        display: block;
+    }
+    .home-welcome-div{
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+
 }
