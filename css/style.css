@@ -749,6 +749,9 @@ text-align: center;
     }
     .profile-summery{
         width:100%;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 40px;
     }
     .para-about{
         width:100%;
@@ -798,6 +801,28 @@ text-align: center;
     }
     .interest-pack{
         margin-top:150px !important;
+    }
+    .home-tb-row{
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .welcome-blobs{
+        height:150px;
+        width:150px;
+    }
+    .profile-summery br{
+        display: none;
+    }
+    .cap-ltr{
+        margin-left: 0px;
+    }
+    .explore-btn{
+        align-self: center;
+        margin-top:40px;
+    }
+    .flex-col-mobile{
+        display: flex;
+        flex-direction:column;
     }
 
 }
