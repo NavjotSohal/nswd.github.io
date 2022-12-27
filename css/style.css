@@ -205,9 +205,7 @@ section{
     border-right: .15em solid #ffffff; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+    animation: typing 3.5s steps(30, end),blink-caret .5s step-end infinite;
 }
 .skills-g-svg{
     width:100%;
@@ -672,8 +670,15 @@ text-align: center;
     display:none;
     background: #FF8000;
 }
-.grey{
+.chat-head{
     color:#838383;
+    font-size:30px;
+    text-align: center;
+    text-transform:capitalize !important;
+    font-family: 'Pacifico', cursive;
+    font-weight:700;
+    margin-bottom:0px;
+    z-index:99;
 }
 
 
@@ -946,5 +951,14 @@ text-align: center;
     }
     .signup-pack {
         padding: 70px 0px 70px;
+    }
+    .signup-box{
+        padding:15px 12px 7px;
+    }
+    .foot-comp-intro{
+        width:100%;
+    }
+    .foot-txt-head{
+        margin-bottom:15px;
     }
 }
