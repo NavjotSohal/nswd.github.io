@@ -410,7 +410,7 @@ text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
     border-radius: 5px;
     padding:20px;
-    border:3px solid #ffa74e;
+    border:2px solid #ffa74e;
 }
 .inter-box{
     z-index:10;
@@ -680,6 +680,15 @@ text-align: center;
     margin-bottom:0px;
     z-index:99;
 }
+.abt-txt-row-sm{
+    display: none;
+}
+
+.accordion-button::after {
+    width: 20px;
+    height: 20px;
+}
+
 
 
 @keyframes bar{
@@ -731,7 +740,7 @@ text-align: center;
         scroll-snap-type: none;
     }
     .padding-tb{
-        padding: 30px 0px 30px;
+        padding: 25px 0px 25px;
     }
     .profile-summery{
         font-size:18px;
@@ -778,13 +787,12 @@ text-align: center;
     .prof-svg-icons{
         height:50px;
         width:50px;
-        margin-bottom:10px;
     }
     .prof-head{
-        font-size:16px;
-        line-height:12px;
-        margin-bottom:10px !important;
-        text-align:center;
+        font-size: 13px;
+        line-height: 12px;
+        text-align: center;
+        font-weight: 600;
     }
     .profile-summery{
         width:100%;
@@ -799,6 +807,7 @@ text-align: center;
         text-align: justify;
         transform: translate(-50%,10%);
         line-height: initial;
+        color:#050505;
     }
     .shapes-pack{
         display: none ;
@@ -818,7 +827,7 @@ text-align: center;
     }
     .edu-box {
         padding: 10px;
-        height:150px;
+        height:135px;
     }
     .edu-desc{
         font-size:12px;
@@ -869,6 +878,7 @@ text-align: center;
         flex-direction:column;
     }
     #about{
+        min-height:100vh;
         height:auto;
     }
     .profile-card-sm{
@@ -960,5 +970,24 @@ text-align: center;
     }
     .foot-txt-head{
         margin-bottom:15px;
+    }
+    .abt-txt-row-sm{
+        display: block;
+        margin-top:15px;
+        height:62vh;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+    }
+    .abt-txt-row{
+        display: none;
+    }
+    .accordion-item{
+        padding:10px;
+        border-radius:5px !important;
+        box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+    }
+    .accordion-body{
+        padding:5px !important;
     }
 }
