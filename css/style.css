@@ -210,6 +210,22 @@ section{
 .skills-g-svg{
     width:100%;
 }
+.skills-km-link{
+    text-decoration:none;
+    color:#212529;
+}
+.skills-km-link {
+    color:#212529;
+}         
+.skills-km-link:visited {
+    color:#212529;
+} 
+.skills-km-link:hover {
+    color:#212529;
+}
+.skills-km-link:active {
+    color:#212529;
+} 
 .skills-gd-svg{
     position:absolute !important;
     top:50%;
@@ -227,7 +243,7 @@ section{
 }
 #skills{
     background:none;
-    background-image: url(../img/skills-top.svg),url(../img/test-bm.svg);
+    background-image: url(../img/skills-top.svg);
     background-repeat: no-repeat;
 }
 #portfolio{
@@ -239,10 +255,7 @@ section{
 #edu-interest{
     background-image: url(../img/commit.svg);   
 }
-#footer{
-    position:relative;
-    /* background-image:url(../img/) */
-}
+
 .foot-txt-hds{
     font-size: 13px;
     font-weight: 600;
@@ -275,10 +288,10 @@ section{
     width: 200px;
 }
 .signup-pack{
-    padding:150px 0px 150px;
+    padding:50px 0px 50px;
 }
 .signup-box{
-    padding:25px 12px 7px;
+    padding:7px 12px 7px;
     z-index:10;
     background:#ffffff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
@@ -292,16 +305,44 @@ section{
     bottom:0;
     padding-top:10px;
     left:50%;
+    top:50%;
     width: 100%;
     height: 40%;
-    transform:translate(-50%);
+    transform:translate(-50%,-11%);
     /* background-image: url(../img/foot-top.svg);
     background-repeat: no-repeat; */
 }
 .foot-comp-intro{
-    font-size:11.5px;
-    width:80%;
+    font-size:9.5px;
+    width:100%;
 }
+.nl-fld{
+    background:transparent !important;
+    background-color:none !important;
+    border: 1px solid #ffffff !important;
+    color:#ffffff !important;
+}
+.nl-btn{
+    background:#0171fe;
+    border:none;
+    color:#ffffff;
+    padding:5px 8px;
+    font-size:12px;
+    margin-top:10px;
+    border-radius:3px;
+    font-weight:600;
+    float:right;
+    float:clear;
+
+}
+
+.newsletter-pack ::placeholder{
+    color:#ffffff !important;
+    font-size:14px;
+}
+
+
+
 a{
     text-decoration: none !important;
 }
@@ -688,7 +729,50 @@ text-align: center;
     width: 20px;
     height: 20px;
 }
-
+.tab-blobs-div{
+    display:none;
+}
+.blobs-def-div{
+    display: block;
+}
+/* .footer-credit-links{
+    text-decoration:none;
+    color:inherit;
+    text-transform: capitalize;
+    font-size:12.5px;
+    font-weight:500;
+} */
+.footer-credit-links:visited {
+    color:inherit;
+} 
+.footer-credit-links:hover {
+    color:inherit;
+}
+.footer-credit-links:active {
+    color:inherit;
+} 
+.footer-comp-info{
+    padding:30px 0px 15px;
+    font-weight:500;
+    font-size:15px;
+    color:#212529;
+    
+}
+.footer-comp-info-pack{
+    background:#ffffff;
+    border: 3px solid #e0e0e0;
+    position:relative;
+    bottom:-55px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+}
+.text-right{
+    text-align:right;
+}
+.cpyrt-txt{
+    text-align:center;
+}
 
 
 @keyframes bar{
@@ -734,8 +818,53 @@ text-align: center;
 }
 
 
+@media screen and (max-width:800px){
+    .profile-summery{
+        margin-top:30px;
+        font-size:18px;
+        text-align:center;
+    }
+    .cap-ltr{
+    font-size:30px;
+    }
+    .typewriter{
+        text-align:center;
+        font-size:40px;
+    }
+    .explore-btn{
+        margin-top:20px;
+        align-self:center;
+    }
+    .tab-blobs-div{
+        display:block !important;
+    }
+    /* .blobs-def-div{
+        display: none;
+    } */
+    .home-welcome-div {
+        margin: 20px 0px 0px;
+    }
+    .flex-col-mobile{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    .head-txt{
+        font-size:30px;
+    }
+    .para-about{
+        font-size:16px;
+        width: 100%;
+        text-align:justify;
+        transform: translate(-50%, 15%);
+    }
+    
+
+} 
+
+
 /*for screen sizes less than 430px media queries Start from here */
-@media screen and (max-width: 430px){
+@media screen and (max-width: 500px){
     section{
         scroll-snap-type: none;
     }
@@ -743,12 +872,13 @@ text-align: center;
         padding: 25px 0px 25px;
     }
     .profile-summery{
-        font-size:18px;
+        font-size:17px;
         text-align:center;
         margin-top:20px;
     }
     .welcome-txt{
-        font-size:18px;
+        font-size: 23px;
+        margin-top: 35px;
         text-align:center;
     }
     .cap-ltr{
@@ -759,7 +889,7 @@ text-align: center;
         text-align:center !important;
     }
     .head-txt{
-        font-size:34px;
+        font-size:32px;
     }
     .typewriter{
         text-align:center;
@@ -789,7 +919,7 @@ text-align: center;
         width:50px;
     }
     .prof-head{
-        font-size: 13px;
+        font-size: 16px;
         line-height: 12px;
         text-align: center;
         font-weight: 600;
@@ -802,7 +932,7 @@ text-align: center;
     }
     .para-about{
         width: 100%;
-        font-size: 13px;
+        font-size: 13.5px;
         font-weight: 600;
         text-align: justify;
         transform: translate(-50%,10%);
@@ -854,10 +984,6 @@ text-align: center;
     .interest-pack{
         margin-top:150px !important;
     }
-    .home-tb-row{
-        display: flex;
-        flex-direction:column-reverse;
-    }
     .welcome-blobs{
         height:150px;
         width:150px;
@@ -870,7 +996,7 @@ text-align: center;
     }
     .explore-btn{
         align-self: center;
-        margin-top:40px;
+        margin-top:20px;
         font-size:12px;
     }
     .flex-col-mobile{
@@ -901,10 +1027,11 @@ text-align: center;
     }
     .skills-head{
         font-size:14px;
-        font-weight:400;
+        font-weight:600;
         text-align:center;
+        text-transform: uppercase;
         margin-top:15px;
-        margin-bottom:0px !important;
+        margin-bottom:10px !important;
     }
     .button{
         margin-bottom: 10px;
@@ -963,10 +1090,11 @@ text-align: center;
         padding: 70px 0px 70px;
     }
     .signup-box{
-        padding:15px 12px 7px;
+        padding:7px 12px 7px;
     }
     .foot-comp-intro{
         width:100%;
+        text-align:left;
     }
     .foot-txt-head{
         margin-bottom:15px;
@@ -989,5 +1117,18 @@ text-align: center;
     }
     .accordion-body{
         padding:5px !important;
+    }
+    .home-tb-row{
+        flex-direction: column-reverse;
+    }
+    .sm-txt-cent{
+        text-align:center;
+    }
+    #footer-logo-pack{
+        text-align:center;
+    }
+    .foot-txt-hds{
+        text-align:center;
+        margin-bottom: 35px;
     }
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body onload="checkStatus(); userStatus();">
 
@@ -36,9 +37,9 @@
                     </div>
                     <a href="#about" class="explore-btn">Explore Profile</a>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 blobs-def-div">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-6 sm-txt-cent">
                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg" transform="rotate(-172)" style="opacity: 1;" class="welcome-blobs">
                                 <defs>
                                     <linearGradient id="gradientB" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -54,7 +55,7 @@
                                 </path>
                             </svg>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 sm-txt-cent">
                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg1" transform="rotate(-172)" style="opacity: 1;" class="welcome-blobs">
                                 <defs>
                                     <linearGradient id="gradientR" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -72,7 +73,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-6 sm-txt-cent">
                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg" transform="rotate(-172)" style="opacity: 1;" class="welcome-blobs">
                                 <defs>
                                     <linearGradient id="gradientY" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -88,7 +89,7 @@
                                 </path>
                             </svg>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 sm-txt-cent">
                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" id="blobSvg" transform="rotate(-172)" style="opacity: 1;" class="welcome-blobs">
                                 <defs>
                                     <linearGradient id="gradientG" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -321,35 +322,51 @@
         <div class="row d-flex flex-row flex-wrap justify-content-evenly">
             <div class="col-5 d-flex flex-column justify-content-center align-items-center sk-card">
                 <svg height="100px" width="100px" xmlns="http://www.w3.org/2000/svg" aria-label="HTML5" role="img" viewBox="-51.2 -51.2 614.40 614.40" fill="#000000" stroke="#000000" stroke-width="0"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_iconCarrier"><path fill="#e34f26" d="M71 460L30 0h451l-41 460-185 52"></path><path fill="#ef652a" d="M256 472l149-41 35-394H256"></path><path fill="#ebebeb" d="M256 208h-75l-5-58h80V94H114l15 171h127zm-1 147l-63-17-4-45h-56l7 89 116 32z"></path><path fill="#ffffff" d="M255 208v57h70l-7 73-63 17v59l116-32 16-174zm0-114v56h137l5-56z"></path></g></svg>
+                    <a  class="skills-km-link" href="https://www.w3schools.com/html/" target="_blank">
                         <p class="skills-head">Html 5</p>
+                    </a>
             </div>
             <div class="col-5 d-flex flex-column justify-content-center align-items-center sk-card">
                 <svg height="100px" width="100px" xmlns="http://www.w3.org/2000/svg" aria-label="CSS3" role="img" viewBox="-51.2 -51.2 614.40 614.40" fill="#000000" stroke="#000000" stroke-width="0"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_iconCarrier"><path fill="#264de4" d="M72 460L30 0h451l-41 460-184 52"></path><path fill="#2965f1" d="M256 37V472l149-41 35-394"></path><path fill="#ebebeb" d="m114 94h142v56H119m5 58h132v57H129m3 28h56l4 45 64 17v59L139 382"></path><path fill="#ffffff" d="m256 208v57h69l-7 73-62 17v59l115-32 26-288H256v56h80l-5.5 58Z"></path></g></svg>
-                <p class="skills-head">Css 3</p>
+                    <a  class="skills-km-link" href="https://www.w3schools.com/css/default.asp" target="_blank">
+                        <p class="skills-head">Css 3</p>
+                    </a>
         </div>
         <div class="col-5 d-flex flex-column justify-content-center align-items-center sk-card">
             <svg width="100px" height="100px" viewBox="-25.6 -25.6 307.20 307.20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" fill="#000000" stroke="#000000" stroke-width="0"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_iconCarrier"><path d="M0 0h256v256H0V0z" fill="#F7DF1E"></path><path d="M67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371 7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259-19.245 0-30.416-9.967-36.087-21.996M152.381 211.354l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607 9.969 0 16.325-4.984 16.325-11.858 0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257 0-18.044 13.747-31.792 35.228-31.792 15.294 0 26.292 5.328 34.196 19.247L210.29 147.43c-4.125-7.389-8.591-10.31-15.465-10.31-7.046 0-11.514 4.468-11.514 10.31 0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804 0 21.654-17.012 33.51-39.867 33.51-22.339 0-36.774-10.654-43.819-24.574"></path></g></svg>
-                <p class="skills-head">Javascript</p>
+                <a  class="skills-km-link" href="https://www.w3schools.com/js/default.asp" target="_blank">            
+                    <p class="skills-head">Javascript</p>
+                </a>    
         </div>
         <div class="col-5 d-flex flex-column justify-content-center align-items-center sk-card">
             <svg fill="#286297" width="100px" height="100px" viewBox="-2.4 -2.4 28.80 28.80" role="img" xmlns="http://www.w3.org/2000/svg" stroke="#286297" stroke-width="0"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_iconCarrier"><path d="M1.525 5.87c-2.126 3.054-1.862 7.026-.237 10.269.037.079.078.154.118.229.023.052.049.1.077.15.013.027.031.056.047.082.026.052.054.102.081.152l.157.266c.03.049.057.097.09.146.056.094.12.187.178.281.026.04.05.078.079.117a6.368 6.368 0 0 0 .31.445c.078.107.156.211.24.315.027.038.058.076.086.115l.22.269c.028.03.055.067.084.099.098.118.202.233.306.35l.005.006a3.134 3.134 0 0 0 .425.44c.08.083.16.165.245.245l.101.097c.111.105.223.209.34.309.002 0 .003.002.005.003l.057.05c.102.089.205.178.31.26l.125.105c.085.068.174.133.26.2l.137.105c.093.07.192.139.287.207.035.025.07.05.106.073l.03.023.28.185.12.08c.148.094.294.184.44.272.041.02.084.044.123.068.108.062.22.125.329.183.06.034.122.063.184.094.075.042.153.083.234.125a.324.324 0 0 1 .056.023c.033.015.064.031.096.047.12.06.245.118.375.175.024.01.05.02.076.034.144.063.289.123.438.182.034.01.07.027.105.04.135.051.274.103.411.152l.05.018c.154.052.305.102.46.15.036.01.073.023.111.033.16.048.314.105.474.137 10.273 1.872 13.258-6.177 13.258-6.177-2.508 3.266-6.958 4.127-11.174 3.169-.156-.036-.312-.086-.47-.132a13.539 13.539 0 0 1-.567-.182l-.062-.024c-.136-.046-.267-.097-.4-.148a1.615 1.615 0 0 0-.11-.04c-.148-.06-.29-.121-.433-.184-.031-.01-.057-.024-.088-.036a23.44 23.44 0 0 1-.362-.17 1.485 1.485 0 0 1-.106-.052c-.094-.044-.188-.095-.28-.143a3.947 3.947 0 0 1-.187-.096c-.114-.06-.227-.125-.34-.187-.034-.024-.073-.044-.112-.066a15.922 15.922 0 0 1-.439-.27 2.107 2.107 0 0 1-.118-.078 6.01 6.01 0 0 1-.312-.207c-.035-.023-.067-.048-.103-.073a9.553 9.553 0 0 1-.295-.212c-.042-.034-.087-.066-.132-.1-.088-.07-.177-.135-.265-.208l-.118-.095a10.593 10.593 0 0 1-.335-.28.258.258 0 0 0-.037-.031l-.347-.316-.1-.094c-.082-.084-.166-.164-.25-.246l-.098-.1a9.081 9.081 0 0 1-.309-.323l-.015-.016c-.106-.116-.21-.235-.313-.355-.027-.03-.053-.064-.08-.097l-.227-.277a21.275 21.275 0 0 1-.34-.449C2.152 11.79 1.306 7.384 3.177 3.771m4.943-.473c-1.54 2.211-1.454 5.169-.254 7.508a9.111 9.111 0 0 0 .678 1.133c.23.33.484.721.793.988.107.122.223.24.344.36l.09.09c.114.11.232.217.35.325l.016.013a9.867 9.867 0 0 0 .414.342c.034.023.063.05.096.073.14.108.282.212.428.316l.015.009c.062.045.128.086.198.13.028.018.06.042.09.06.106.068.21.132.318.197.017.007.032.016.048.023.09.055.188.108.282.157.033.02.065.035.1.054.066.033.132.068.197.102l.032.014c.135.067.273.129.408.19.034.014.063.025.092.039.111.048.224.094.336.137.05.017.097.037.144.052.102.038.21.073.31.108l.14.045c.147.045.295.104.449.13C22.164 17.206 24 11.098 24 11.098c-1.653 2.38-4.852 3.513-8.261 2.628a8.04 8.04 0 0 1-.449-.13c-.048-.014-.09-.029-.136-.043-.104-.036-.211-.07-.312-.109l-.144-.054c-.113-.045-.227-.087-.336-.135-.034-.015-.065-.025-.091-.04-.14-.063-.281-.125-.418-.192l-.206-.107-.119-.06a5.673 5.673 0 0 1-.265-.15.62.62 0 0 1-.062-.035c-.106-.066-.217-.13-.318-.198-.034-.019-.065-.042-.097-.062l-.208-.136c-.144-.1-.285-.208-.428-.313-.032-.029-.063-.053-.094-.079-1.499-1.178-2.681-2.79-3.242-4.613-.59-1.897-.46-4.023.56-5.75m4.292-.147c-.909 1.334-.996 2.99-.37 4.46.665 1.563 2.024 2.79 3.608 3.37.065.025.128.046.196.07l.088.027c.092.03.185.063.28.084 4.381.845 5.567-2.25 5.886-2.704-1.043 1.498-2.792 1.857-4.938 1.335a4.85 4.85 0 0 1-.516-.16 6.352 6.352 0 0 1-.618-.254 6.53 6.53 0 0 1-1.082-.66c-1.922-1.457-3.113-4.236-1.859-6.5"></path></g></svg>
-            <p class="skills-head">J Query</p>
+                <a  class="skills-km-link" href="https://jquery.com/" target="_blank">    
+                    <p class="skills-head">J Query</p>
+                </a>        
         </div>
         <div class="col-5 d-flex flex-column justify-content-center align-items-center sk-card">
-            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M49.6875 15C30.5347 15 15 30.5312 15 49.6875C15 68.8472 30.5312 84.3785 49.6875 84.3785C68.8472 84.3785 84.3785 68.8472 84.3785 49.691C84.3785 30.5313 68.8472 15 49.691 15H49.6875ZM19.9583 49.6875C19.9583 45.4931 20.8889 41.5035 22.5347 37.9028L36.7188 75.75C26.7986 71.059 19.9583 61.1493 19.9583 49.691V49.6875ZM49.6944 78.6563C46.8526 78.6534 44.0249 78.2573 41.2917 77.4792L50.2153 52.2257L59.3472 76.6146L59.5556 77.0174C56.3812 78.1031 53.0493 78.6569 49.6944 78.6563V78.6563ZM53.7778 36.1111C55.566 36.0174 57.1806 35.8333 57.1806 35.8333C58.7813 35.6493 58.5972 33.3611 56.9965 33.4479C56.9965 33.4479 52.1771 33.816 49.066 33.816C46.1493 33.816 41.2326 33.4479 41.2326 33.4479C39.6285 33.3576 39.4444 35.7396 41.0417 35.8368C41.0417 35.8368 42.5625 36.0174 44.1597 36.1111L48.7951 48.4722L42.2882 67.4826L31.4653 36.1146C33.2604 36.0243 34.8681 35.8403 34.8681 35.8403C36.4653 35.6528 36.2813 33.3646 34.6806 33.4514C34.6806 33.4514 29.8646 33.8194 26.7604 33.8194L24.8472 33.7847C30.1597 25.9236 39.2986 20.7292 49.684 20.7292C57.4271 20.7292 64.4722 23.6111 69.7674 28.3333L69.3785 28.3056C66.4583 28.3056 64.3889 30.7812 64.3889 33.4444C64.3889 35.8333 65.7986 37.8472 67.3056 40.2361C68.4479 42.1701 69.7569 44.6458 69.7569 48.2222C69.7569 50.7014 68.7847 53.5764 67.5 57.5903L64.5278 67.2396L53.7778 36.1111V36.1111ZM64.6354 74.7118L73.7222 49.1389C75.4236 45.0069 75.9792 41.7083 75.9792 38.7674C75.9792 37.7014 75.9097 36.7118 75.7847 35.7882C78.1737 40.0311 79.4282 44.8183 79.4271 49.6875C79.4236 60.3715 73.4792 69.6979 64.6354 74.7118V74.7118Z" fill="#05A8DA"/>            </svg>                
-            <p class="skills-head">Word Press</p>
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M49.6875 15C30.5347 15 15 30.5312 15 49.6875C15 68.8472 30.5312 84.3785 49.6875 84.3785C68.8472 84.3785 84.3785 68.8472 84.3785 49.691C84.3785 30.5313 68.8472 15 49.691 15H49.6875ZM19.9583 49.6875C19.9583 45.4931 20.8889 41.5035 22.5347 37.9028L36.7188 75.75C26.7986 71.059 19.9583 61.1493 19.9583 49.691V49.6875ZM49.6944 78.6563C46.8526 78.6534 44.0249 78.2573 41.2917 77.4792L50.2153 52.2257L59.3472 76.6146L59.5556 77.0174C56.3812 78.1031 53.0493 78.6569 49.6944 78.6563V78.6563ZM53.7778 36.1111C55.566 36.0174 57.1806 35.8333 57.1806 35.8333C58.7813 35.6493 58.5972 33.3611 56.9965 33.4479C56.9965 33.4479 52.1771 33.816 49.066 33.816C46.1493 33.816 41.2326 33.4479 41.2326 33.4479C39.6285 33.3576 39.4444 35.7396 41.0417 35.8368C41.0417 35.8368 42.5625 36.0174 44.1597 36.1111L48.7951 48.4722L42.2882 67.4826L31.4653 36.1146C33.2604 36.0243 34.8681 35.8403 34.8681 35.8403C36.4653 35.6528 36.2813 33.3646 34.6806 33.4514C34.6806 33.4514 29.8646 33.8194 26.7604 33.8194L24.8472 33.7847C30.1597 25.9236 39.2986 20.7292 49.684 20.7292C57.4271 20.7292 64.4722 23.6111 69.7674 28.3333L69.3785 28.3056C66.4583 28.3056 64.3889 30.7812 64.3889 33.4444C64.3889 35.8333 65.7986 37.8472 67.3056 40.2361C68.4479 42.1701 69.7569 44.6458 69.7569 48.2222C69.7569 50.7014 68.7847 53.5764 67.5 57.5903L64.5278 67.2396L53.7778 36.1111V36.1111ZM64.6354 74.7118L73.7222 49.1389C75.4236 45.0069 75.9792 41.7083 75.9792 38.7674C75.9792 37.7014 75.9097 36.7118 75.7847 35.7882C78.1737 40.0311 79.4282 44.8183 79.4271 49.6875C79.4236 60.3715 73.4792 69.6979 64.6354 74.7118V74.7118Z" fill="#05A8DA"/></svg>
+                <a  class="skills-km-link" href="https://wordpress.com/" target="_blank">
+                    <p class="skills-head">Word Press</p>
+                </a>    
         </div>
         <div class="col-5 d-flex flex-column justify-content-center align-items-center sk-card">
             <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.5076 67.6468H31.2517C31.1719 63.8388 30.9522 60.2589 30.593 56.9044H30.5729L27.1381 67.6468H25.4205L22.0063 56.9044H21.9867C21.7334 60.1251 21.5738 63.7059 21.5076 67.6468H19.4512C19.5838 62.8545 19.9168 58.3617 20.4491 54.168H23.2452L26.4995 64.0721H26.5195L29.7939 54.168H32.4692C33.0551 59.0801 33.4013 63.5733 33.5076 67.6468M43.2914 57.7021C42.3729 62.6866 41.161 66.3084 39.657 68.5692C38.4852 70.3095 37.2014 71.1805 35.8033 71.1805C35.4306 71.1805 34.9707 71.068 34.4257 70.8448V69.6429C34.6921 69.6813 35.0047 69.7031 35.3639 69.7031C36.0169 69.7031 36.5418 69.5235 36.942 69.1634C37.4206 68.7248 37.66 68.2318 37.66 67.6864C37.66 67.3124 37.4734 66.5478 37.1011 65.3899L34.6254 57.7017H36.8417L38.6186 63.4517C39.0179 64.7574 39.1844 65.6689 39.1177 66.1881C40.0894 63.593 40.7682 60.7633 41.1549 57.7013H43.2914V57.7021V57.7021Z" fill="#5D87A1"/><path d="M73.3211 67.6468H66.9128V54.168H69.0685V65.9876H73.3211V67.6468ZM65.2353 67.9724L62.7574 66.7496C62.9771 66.5691 63.1872 66.3738 63.3764 66.1476C64.4297 64.9104 64.955 63.0807 64.955 60.6574C64.955 56.1981 63.2051 53.9674 59.7041 53.9674C57.9874 53.9674 56.6482 54.5333 55.6904 55.6654C54.638 56.9035 54.1127 58.7266 54.1127 61.1369C54.1127 63.5062 54.5783 65.2443 55.5099 66.3468C56.3622 67.3455 57.6469 67.8455 59.3649 67.8455C60.0058 67.8455 60.5938 67.7671 61.1296 67.6088L64.3556 69.4869L65.2353 67.9724ZM57.2083 64.9496C56.6625 64.0716 56.3896 62.6618 56.3896 60.718C56.3896 57.3242 57.4206 55.6253 59.4848 55.6253C60.5638 55.6253 61.3546 56.0316 61.8602 56.8425C62.4052 57.7217 62.6794 59.1189 62.6794 61.0357C62.6794 64.4574 61.6475 66.1685 59.5846 66.1685C58.5053 66.1689 57.7145 65.7639 57.2083 64.9496M53.1733 63.9108C53.1733 65.0538 52.7539 65.9915 51.916 66.7261C51.0773 67.4576 49.9526 67.8242 48.5432 67.8242C47.2249 67.8242 45.9467 67.4031 44.7095 66.5652L45.2889 65.4078C46.3535 65.9409 47.3173 66.206 48.1827 66.206C48.9948 66.206 49.6295 66.0259 50.0899 65.6689C50.5498 65.3106 50.824 64.8079 50.824 64.1723C50.824 63.3715 50.2656 62.6871 49.2411 62.1138C48.2964 61.5951 46.4071 60.5104 46.4071 60.5104C45.3831 59.7641 44.8704 58.9629 44.8704 57.6428C44.8704 56.5504 45.2527 55.6685 46.0178 54.9976C46.7837 54.324 47.772 53.9884 48.9835 53.9884C50.2346 53.9884 51.372 54.3236 52.3964 54.9871L51.8768 56.1449C51.0006 55.7727 50.1357 55.5865 49.2825 55.5865C48.5916 55.5865 48.058 55.7526 47.687 56.0861C47.313 56.4183 47.0823 56.8433 47.0823 57.3647C47.0823 58.1616 47.6526 58.8547 48.7049 59.4393C49.6622 59.959 51.5987 61.0623 51.5987 61.0623C52.6489 61.8074 53.1733 62.6012 53.1733 63.9108" fill="#F8981D"/><path d="M76.0274 49.6534C74.7239 49.6203 73.7147 49.7515 72.8677 50.1098C72.6231 50.2075 72.2343 50.2075 72.2003 50.5165C72.3324 50.6473 72.3476 50.8583 72.4623 51.0388C72.6576 51.3644 72.9981 51.8026 73.3089 52.031C73.6502 52.2926 73.9929 52.5515 74.3521 52.7795C74.9855 53.1714 75.7035 53.3994 76.3208 53.79C76.6804 54.0171 77.0379 54.311 77.398 54.5555C77.575 54.6859 77.6883 54.8973 77.9181 54.9788V54.9291C77.803 54.7826 77.7703 54.5708 77.6574 54.4077L77.1682 53.9361C76.6957 53.3013 76.1085 52.7472 75.4751 52.2921C74.9537 51.9329 73.8133 51.4447 73.6018 50.8439L73.5687 50.8108C73.927 50.7772 74.3521 50.6473 74.6925 50.5475C75.2466 50.4015 75.7519 50.4346 76.3203 50.2885C76.5819 50.2232 76.8413 50.1412 77.1037 50.0606V49.9136C76.809 49.6203 76.5989 49.2305 76.289 48.9533C75.4598 48.237 74.5461 47.5365 73.6018 46.9501C73.0961 46.6236 72.4457 46.4135 71.9073 46.1358C71.7133 46.0377 71.3864 45.9893 71.2722 45.8263C70.9801 45.4679 70.8157 44.9963 70.6039 44.5721C70.1331 43.6771 69.6758 42.684 69.2695 41.7376C68.9756 41.1029 68.7969 40.469 68.4386 39.8818C66.7602 37.1136 64.9375 35.437 62.1362 33.7913C61.5342 33.4487 60.8179 33.3026 60.0528 33.123L58.8309 33.0585C58.5702 32.9443 58.3091 32.6343 58.0815 32.4879C57.1521 31.902 54.7592 30.6321 54.0757 32.3087C53.6354 33.3685 54.727 34.4103 55.1019 34.9479C55.3787 35.321 55.7375 35.7456 55.931 36.1694C56.0457 36.4462 56.078 36.74 56.1926 37.0325C56.4533 37.7492 56.697 38.5465 57.0396 39.2153C57.2184 39.5562 57.4132 39.9145 57.6417 40.2232C57.7725 40.4036 58 40.4834 58.0497 40.7777C57.8226 41.102 57.8047 41.5916 57.6744 41.9987C57.0885 43.8388 57.3173 46.1184 58.1478 47.4706C58.4076 47.8778 59.0275 48.7741 59.8567 48.4306C60.5908 48.1376 60.4282 47.2095 60.6392 46.3956C60.6876 46.199 60.6558 46.07 60.7534 45.9409V45.9728C60.9805 46.4283 61.2098 46.8673 61.4204 47.3242C61.9256 48.1215 62.8054 48.9524 63.5382 49.5047C63.9283 49.7994 64.2374 50.3034 64.7261 50.4834V50.4346H64.6939C64.5949 50.2885 64.4502 50.2232 64.3203 50.1098C64.0264 49.8164 63.7012 49.4581 63.4732 49.1329C62.7905 48.2205 62.1863 47.2104 61.6501 46.1681C61.3877 45.6624 61.1614 45.1096 60.95 44.6048C60.8515 44.4099 60.8515 44.1161 60.688 44.018C60.443 44.3759 60.086 44.6859 59.9072 45.1244C59.5973 45.8258 59.565 46.6886 59.4499 47.5857L59.3859 47.6171C58.8671 47.4868 58.6866 46.9501 58.4896 46.4946C58.0018 45.3376 57.9198 43.4805 58.3431 42.1456C58.4564 41.8043 58.9469 40.7293 58.7511 40.4041C58.653 40.0924 58.327 39.9149 58.1482 39.6695C57.9381 39.3609 57.7079 38.9703 57.5615 38.6276C57.1709 37.7161 56.9742 36.706 56.5536 35.7949C56.357 35.3703 56.0156 34.9309 55.7392 34.5398C55.4288 34.1004 55.0875 33.7909 54.8421 33.2699C54.761 33.0908 54.6472 32.7978 54.7776 32.6029C54.8094 32.4722 54.8756 32.4233 55.0055 32.3906C55.2165 32.2123 55.8194 32.439 56.0309 32.5371C56.6347 32.7812 57.1395 33.0092 57.6434 33.351C57.8714 33.5145 58.116 33.824 58.4085 33.9055H58.7511C59.2712 34.0189 59.8575 33.9369 60.3471 34.0843C61.2098 34.3615 61.9915 34.7683 62.6925 35.2072C64.8255 36.56 66.5845 38.482 67.772 40.7777C67.9669 41.1517 68.0497 41.4944 68.2276 41.8845C68.5707 42.6832 68.9948 43.4975 69.3353 44.2791C69.6775 45.0442 70.0036 45.8254 70.4923 46.461C70.736 46.8028 71.7151 46.982 72.1541 47.1611C72.4788 47.3072 72.9845 47.4371 73.2775 47.6162C73.8316 47.9576 74.3835 48.3495 74.9044 48.7248C75.1638 48.9201 75.979 49.3273 76.0274 49.6534M59.4155 35.5011C59.1907 35.4987 58.9665 35.5263 58.749 35.583V35.6157H58.7803C58.9116 35.876 59.1396 36.0565 59.3022 36.2836C59.4334 36.5447 59.5472 36.8037 59.6758 37.0643L59.7071 37.0321C59.9369 36.8695 60.0511 36.6088 60.0511 36.2178C59.9521 36.1027 59.9369 35.9902 59.8545 35.876C59.7586 35.7129 59.5472 35.6319 59.4155 35.5011" fill="#5D87A1"/><path d="M77.5784 67.6446H77.9159V65.9932H77.4097L76.9969 67.1202L76.5483 65.9932H76.0609V67.6446H76.3796V66.3882H76.3975L76.8674 67.6446H77.1103L77.5784 66.3882V67.6446ZM74.8604 67.6446H75.2174V66.2731H75.6847V65.9928H74.3734V66.2731H74.8595L74.8604 67.6446Z" fill="#F8981D"/></svg>
-            <p class="skills-head">Mysql</p>
+            <a  class="skills-km-link" href="https://www.w3schools.com/MySQL/default.asp" target="_blank">
+                <p class="skills-head">Mysql</p>
+            </a>    
         </div>
         <div class="col-5 d-flex flex-column justify-content-center align-items-center sk-card">
             <svg width="100" height="80" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M49.0417 36.8333H41.4833V24.175H50.45C55.325 24.175 58.0917 26.35 58.0917 30.2833C58.0917 34.4833 54.8708 36.8333 49.0333 36.8333H49.0417ZM50.3917 41.8583H41.4875V55.8083H50.7833C56.8625 55.8083 60.0833 53.3708 60.0833 48.7875C60.0833 44.2042 56.7708 41.8583 50.3917 41.8583V41.8583ZM100 37.4583V42.5333C95.3 42.9833 92.4292 46.4667 90.725 51.9833C89.0292 57.4792 88.7958 64.2208 88.975 69.425C89.1625 74.8417 84.9417 79.8417 79.2375 79.8417H20.7708C15.0625 79.8417 10.8417 74.8417 11.0333 69.425C11.2125 64.2208 10.9792 57.4792 9.28333 51.9833C7.575 46.4667 4.7 42.9833 0 42.5333V37.4583C4.7 37.0083 7.57917 33.525 9.27917 28.0083C10.9792 22.5125 11.2125 15.7708 11.0292 10.5667C10.8417 5.14999 15.0625 0.149994 20.7708 0.149994H79.2375C84.9458 0.149994 89.1625 5.14999 88.975 10.5667C88.7958 15.7708 89.0292 22.5125 90.725 28.0083C92.4292 33.525 95.3 37.0083 100 37.4583ZM66.9708 49.1958C66.9708 43.5542 63 39.475 57.1042 38.8292V38.5917C61.4375 37.8875 64.8375 33.8625 64.8375 29.3708C64.8375 22.9667 59.7833 18.7958 52.0792 18.7958H34.7458V61.1792H52.1667C61.4083 61.1792 66.9708 56.6542 66.9708 49.1958V49.1958Z" fill="#7330F9"/></svg>                                
-            <p class="skills-head">Bootstrap</p>
+                <a  class="skills-km-link" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">
+                    <p class="skills-head">Bootstrap</p>
+                </a>    
         </div>
         <div class="col-5 d-flex flex-column justify-content-center align-items-center sk-card">
             <svg width="100px" height="100px" viewBox="-3.2 -3.2 38.40 38.40" xmlns="http://www.w3.org/2000/svg" fill="#000000" stroke="#000000" stroke-width="0"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_iconCarrier"><title>file_type_photoshop</title><path d="M3.167,3.517H28.833V28.483H3.167Z" style="fill:#0c0824"></path><path d="M3.167,3.517H28.833V28.483H3.167ZM2,29.65H30V2.35H2Zm18.877-16.1c-.922,0-1.237.467-1.237.852,0,.42.21.712,1.447,1.353,1.832.887,2.4,1.738,2.4,2.987,0,1.867-1.423,2.87-3.348,2.87a5.076,5.076,0,0,1-2.392-.5c-.082-.035-.093-.093-.093-.187V19.208c0-.117.058-.152.14-.093a4.33,4.33,0,0,0,2.345.688c.922,0,1.307-.385,1.307-.91,0-.42-.268-.793-1.447-1.4-1.657-.793-2.345-1.6-2.345-2.94,0-1.505,1.178-2.753,3.22-2.753a5.365,5.365,0,0,1,2.088.327.258.258,0,0,1,.117.233v1.6c0,.093-.058.152-.175.117a3.941,3.941,0,0,0-2.03-.525ZM10.843,14.938c.268.023.478.023.945.023,1.365,0,2.648-.478,2.648-2.333,0-1.482-.922-2.228-2.473-2.228-.467,0-.91.023-1.12.035Zm-2.077-6.2c0-.082.163-.14.257-.14.747-.035,1.855-.058,3.01-.058,3.232,0,4.492,1.773,4.492,4.037,0,2.963-2.147,4.235-4.783,4.235-.443,0-.595-.023-.91-.023v4.48c0,.093-.035.14-.14.14H8.907c-.093,0-.14-.035-.14-.14V8.743Z" style="fill:#31c5f0"></path></g></svg>
-            <p class="skills-head">Photoshop</p>
+                <a  class="skills-km-link" href="https://helpx.adobe.com/in/photoshop/tutorials.html" target="_blank">    
+                    <p class="skills-head">Photoshop</p>
+                </a>    
         </div>
         </div>
     </div>
@@ -949,42 +966,542 @@
                 <div id="footer-logo-pack" class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 text-white">
                     <img src="img/nswd-logo.svg" alt="brand-logo" class="footer-logo">
                     <p class="foot-comp-intro">
-                        NSWD.in is a hand crafted website
-                        to create presence on the www, the site will get 
-                        transformed frequently.
+                        NSWD.in is a hand crafted website to create 
+                        presence on the www. With the known technologies and skills 
+                        the website will evolve frequently. Feedbacks are much
+                        appreciated. Kindly write in company's email for suggestions.
                     </p>
+                    <div class="newsletter-pack">
+                        <input type="email" class="form-control nl-fld" placeholder="name@example.com"/>
+                        <button class="float-right nl-btn">Sign up for Newsletter</button>
+                    </div>    
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 text-white">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 text-white text-center">
                     <ul class="foot-txt-hds">
                         <p class="footer-headings">Credits</p>
-                        <li class="foot-li">credit 1</li>
-                        <li class="foot-li">credit 2</li>
-                        <li class="foot-li">credit 3</li>
-                        <li class="foot-li">credit 4</li>
+                        <li class="foot-li">
+                            <a href="https://loading.io/" target="_blank" class="footer-credit-links">Loading.io</a>
+                        </li>
+                        <li class="foot-li">
+                            <a href="https://lordicon.com/" target="_blank" class="footer-credit-links">Lordicon.com</a>
+                        </li>
+                        <li class="foot-li">
+                            <a href="https://codepen.io/" target="_blank" class="footer-credit-links">CodePen.io</a>
+                        </li>
+                        <li class="foot-li">
+                            <a href="https://getwaves.io/" target="_blank" class="footer-credit-links">Getwaves.io</a>
+                        </li>
                     </ul>    
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 text-white">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 text-white text-center">
                     <ul class="foot-txt-hds">
                         <p class="footer-headings">Downloads</p>
-                        <li class="foot-li">Download 1</li>
-                        <li class="foot-li">Download 2</li>
-                        <li class="foot-li">Download 3</li>
-                        <li class="foot-li">Download 4</li>
+                        <li class="foot-li">
+                            <a href="" target="_blank" class="footer-credit-links">Curriculum Vitae (Resume)</a>
+                        </li>
+                        <li class="foot-li">
+                            <a href="" target="_blank" class="footer-credit-links">catalogue</a>                
+                        </li>
+                        <li class="foot-li">
+                            <a href="" target="_blank" class="footer-credit-links">Awards</a>
+                        </li>
+                        <li class="foot-li">
+                            <a href="" target="_blank" class="footer-credit-links">Download 4</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 text-white text-right">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 text-white text-center">
                     <ul class="foot-txt-hds">
-                        <p class="footer-headings">Terms & Conditions</p>
-                        <li class="foot-li">Disclaimer</li>
-                        <li class="foot-li">Privacy Policy</li>
-                        <li class="foot-li">Cookies Policy</li>
+                        <p class="footer-headings">Legal</p>
+                        <li class="foot-li" data-bs-toggle="modal" data-bs-target="#termsnconditions">Terms & Conditions</li>
+                        <li class="foot-li" data-bs-toggle="modal" data-bs-target="#disclaimer">Disclaimer</li>
+                        <li class="foot-li" data-bs-toggle="modal" data-bs-target="#cookiespolicy">Cookies Policy</li>
+                        <li class="foot-li" data-bs-toggle="modal" data-bs-target="#privacypolicy">Privacy Policy</li>
+                        
                     </ul>
+                </div>
+            </div>    
+    </div>
+    <!-- Footer company details info starts from here-->
+    <div class="container-fluid footer-comp-info-pack">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 text-left footer-comp-info">
+                    <svg width="35" height="35" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 16V56H64V16L32 36L0 16Z" fill="black"/><path d="M0 12L32 32L64 12V8H0V12Z" fill="black"/></svg>
+                        nswd.india@gmail.com
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4  text-center footer-comp-info">
+                    <svg width="45" height="35" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_3_12)"><path fill-rule="evenodd" clip-rule="evenodd" d="M21.853 0H42.1435C43.6903 0 45.086 0.713667 46.1068 1.86379C47.1224 3.01392 47.7526 4.6005 47.7526 6.35223V57.6478C47.7526 59.3995 47.1224 60.9802 46.1068 62.1362C45.0913 63.2863 43.6903 64 42.1435 64H21.853C20.3062 64 18.9104 63.2863 17.8896 62.1362C16.8741 60.9861 16.2439 59.3995 16.2439 57.6478V6.35223C16.2439 4.6005 16.8741 3.01981 17.8896 1.86379C18.9052 0.713667 20.3114 0 21.853 0ZM5.72365 23.1087C6.6611 21.929 5.1039 20.3012 4.14041 21.4631L4.12478 21.4808C-1.34366 28.1869 -1.3697 35.7305 4.02062 42.5133L4.02583 42.5192L4.04146 42.5369C5.03619 43.6988 6.55173 42.0297 5.61949 40.8854C0.91663 34.9461 1.03641 28.9006 5.63512 23.1971C5.67157 23.1676 5.69761 23.144 5.72365 23.1087ZM58.2728 23.1087C57.3354 21.929 58.8926 20.3012 59.8561 21.4631L59.8717 21.4808C65.3453 28.1869 65.3714 35.7305 59.981 42.5074L59.9758 42.5133L59.9602 42.531C58.9655 43.6929 57.4499 42.0238 58.3822 40.8795C63.085 34.9402 62.9653 28.8947 58.3613 23.1912C58.3249 23.1676 58.2989 23.144 58.2728 23.1087ZM53.6741 27.2609C52.8096 26.0105 54.4501 24.536 55.3251 25.7215L55.3407 25.7451C58.3093 29.6909 58.4395 34.374 55.6219 38.4731C54.7626 39.7471 53.0648 38.2608 53.9241 36.9927L53.9293 36.9809C55.6688 34.4448 56.1948 31.5016 54.4761 28.7C54.2262 28.3049 53.9501 27.8507 53.6741 27.2609ZM10.3224 27.2609C11.1869 26.0105 9.54636 24.536 8.67141 25.7215L8.65578 25.7451C5.6872 29.6909 5.557 34.374 8.37455 38.4731C9.23388 39.7471 10.9317 38.2608 10.0724 36.9927L10.0672 36.9809C8.32768 34.4448 7.80166 31.5016 9.52032 28.7C9.7703 28.3049 10.0463 27.8507 10.3224 27.2609ZM31.9982 57.0875C33.2638 57.0875 34.295 58.2553 34.295 59.6885C34.295 61.1217 33.2638 62.2896 31.9982 62.2896C30.7327 62.2896 29.7015 61.1217 29.7015 59.6885C29.7015 58.2553 30.7275 57.0875 31.9982 57.0875ZM17.8584 55.0939H46.1433V7.98599H17.8584V55.0939Z" fill="black"/></g><defs><clipPath id="clip0_3_12"><rect width="64" height="64" fill="white"/></clipPath></defs></svg>                    
+                    +91-76962-30840
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 text-right footer-comp-info">
+                    <svg width="45" height="35" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M34 0C21.8694 0 12 10.1434 12 22.6192C12 34.5526 31.7944 62.1513 32.6299 63.3121C32.7854 63.5248 32.9909 63.6982 33.2293 63.8179C33.4675 63.9375 33.7319 64 34 64C34.2681 64 34.5325 63.9375 34.7707 63.8179C35.0091 63.6982 35.2146 63.5248 35.3701 63.3121C36.2278 62.1513 56 34.596 56 22.6192C56 10.1434 46.1306 0 34 0ZM23.7185 22.6192C24.2754 9.35144 43.7691 9.35144 44.2815 22.6192C43.7246 35.8978 24.2754 35.887 23.7185 22.6192Z" fill="black"/></svg>                        
+                    Anand Nagar, Maqsudan, Jalandhar, Punjab.
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="cpyrt-txt">
+                Design of 2021.
+            </div>
+        </div>    
     </div>
+    </div>
+<!-- Footer company details info ends here-->
 </section>
+
 </div>
+
+
+<!-- Terms and Condition Modal -->
+    <div class="modal fade" id="termsnconditions" tabindex="-1" aria-labelledby="termsnconditions" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="termsnconditions">Terms & Conditions</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <h5>Terms and Conditions</h5>
+                <p>Last updated: April 02, 2021</p>
+                <p>Please read these terms and conditions carefully before using Our Service.</p>
+                <h5>Interpretation and Definitions</h5>
+                <h6>Interpretation</h6>
+                    <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+                    <h6>Definitions</h6>
+                    <p>For the purposes of these Terms and Conditions:</p>
+                    <ul>
+                        <li>
+                            <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
+                        </li>
+                        <li>
+                            <p><strong>Country</strong> refers to: Punjab,  India</p>
+                        </li>
+                        <li>
+                            <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Navjot Sohal Web Design.</p>
+                        </li>
+                        <li>
+                            <p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
+                        </li>
+                        <li>
+                            <p><strong>Service</strong> refers to the Website.</p>
+                        </li>
+                        <li>
+                            <p><strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. 
+                        </li>
+                        <li>
+                            <p><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
+                        </li>
+                        <li>
+                            <p><strong>Website</strong> refers to Navjot Sohal Web Design, accessible from <a href="nswd.in" rel="external nofollow noopener" target="_blank">nswd.in</a></p>
+                        </li>
+                        <li>
+                            <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
+                        </li>
+                    </ul>
+                    <h5>Acknowledgment</h5>
+                    <p>These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.</p>
+                    <p>Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.</p>
+                    <p>By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.</p>
+                    <p>You represent that you are over the age of 18. The Company does not permit those under 18 to use the Service.</p>
+                    <p>Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.</p>
+                    <h5>Links to Other Websites</h5>
+                    <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.</p>
+                    <p>The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+                    <p>We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or services that You visit.</p>
+                    <h5>Termination</h5>
+                    <p>We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.</p>
+                    <p>Upon termination, Your right to use the Service will cease immediately.</p>
+                    <h5>Limitation of Liability</h5>
+                    <p>Notwithstanding any damages that You might incur, the entire liability of the Company and any of its suppliers under any provision of this Terms and Your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by You through the Service or 100 USD if You haven't purchased anything through the Service.</p>
+                    <p>To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.</p>
+                    <p>Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, which means that some of the above limitations may not apply. In these states, each party's liability will be limited to the greatest extent permitted by law.</p>
+                    <h5>&quot;AS IS&quot; and &quot;AS AVAILABLE&quot; Disclaimer</h5>
+                    <p>The Service is provided to You &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf and on behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the Service, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, the Company provides no warranty or undertaking, and makes no representation of any kind that the Service will meet Your requirements, achieve any intended results, be compatible or work with any other software, applications, systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.</p>
+                    <p>Without limiting the foregoing, neither the Company nor any of the company's provider makes any representation or warranty of any kind, express or implied: (i) as to the operation or availability of the Service, or the information, content, and materials or products included thereon; (ii) that the Service will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through the Service; or (iv) that the Service, its servers, the content, or e-mails sent from or on behalf of the Company are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.</p>
+                    <p>Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.</p>
+                    <h5>Governing Law</h5>
+                    <p>The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.</p>
+                    <h5>Disputes Resolution</h5>
+                    <p>If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.</p>
+                    <h5>For European Union (EU) Users</h5>
+                    <p>If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.</p>
+                    <h5>United States Legal Compliance</h5>
+                    <p>You represent and warrant that (i) You are not located in a country that is subject to the United States government embargo, or that has been designated by the United States government as a &quot;terrorist supporting&quot; country, and (ii) You are not listed on any United States government list of prohibited or restricted parties.</p>
+                    <h5>Severability and Waiver</h5>
+                    <h6>Severability</h6>
+                    <p>If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.</p>
+                    <h6>Waiver</h6>
+                    <p>Except as provided herein, the failure to exercise a right or to require performance of an obligation under these Terms shall not effect a party's ability to exercise such right or require such performance at any time thereafter nor shall the waiver of a breach constitute a waiver of any subsequent breach.</p>
+                    <h5>Translation Interpretation</h5>
+                    <p>These Terms and Conditions may have been translated if We have made them available to You on our Service.
+                    You agree that the original English text shall prevail in the case of a dispute.</p>
+                    <h5>Changes to These Terms and Conditions</h5>
+                    <p>We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.</p>
+                    <p>By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.</p>
+                    <h5>Contact Us</h5>
+                    <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
+                    <ul>
+                        <li>By email: nswd.india@gmail.com</li>
+                    </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Terms and Conditions Modal end here-->
+
+
+<!-- Disclaimer Modal starts here -->
+
+<div class="modal fade" id="disclaimer" tabindex="-1" aria-labelledby="disclaimer" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="disclaimer">Disclaimer</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h5>Disclaimer</h5>
+            <p>Last updated: April 02, 2021</p>
+            <h7>Interpretation and Definitions</h7>
+            <h5>Interpretation</h5>
+            <p>The words of which the initial letter is capitalized have meanings defined under the following conditions.
+            The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+            <h5>Definitions</h5>
+            <p>For the purposes of this Disclaimer:</p>
+            <ul>
+            <li><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Disclaimer) refers to Navjot Sohal Web Design.</li>
+            <li><strong>Service</strong> refers to the Website.</li>
+            <li><strong>You</strong> means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
+            <li><strong>Website</strong> refers to Navjot Sohal Web Design, accessible from <a href="www.nswd.in" rel="external nofollow noopener" target="_blank">www.nswd.in</a></li>
+            </ul>
+            <h5>Disclaimer</h5>
+            <p>The information contained on the Service is for general information purposes only.</p>
+            <p>The Company assumes no responsibility for errors or omissions in the contents of the Service.</p>
+            <p>In no event shall the Company be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice.
+            <p>The Company does not warrant that the Service is free of viruses or other harmful components.</p>
+            <h5>External Links Disclaimer</h5>
+            <p>The Service may contain links to external websites that are not provided or maintained by or in any way affiliated with the Company.</p>
+            <p>Please note that the Company does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.</p>
+            <h5>Errors and Omissions Disclaimer</h5>
+            <p>The information given by the Service is for general guidance on matters of interest only. Even if the Company takes every precaution to insure that the content of the Service is both current and accurate, errors can occur. Plus, given the changing nature of laws, rules and regulations, there may be delays, omissions or inaccuracies in the information contained on the Service.</p>
+            <p>The Company is not responsible for any errors or omissions, or for the results obtained from the use of this information.</p>
+            <h5>Fair Use Disclaimer</h5>
+            <p>The Company may use copyrighted material which has not always been specifically authorized by the copyright owner. The Company is making such material available for criticism, comment, news reporting, teaching, scholarship, or research.</p>
+            <p>The Company believes this constitutes a &quot;fair use&quot; of any such copyrighted material as provided for in section 107 of the United States Copyright law.</p>
+            <p>If You wish to use copyrighted material from the Service for your own purposes that go beyond fair use, You must obtain permission from the copyright owner.</p>
+            <h5>Views Expressed Disclaimer</h5>
+            <p>The Service may contain views and opinions which are those of the authors and do not necessarily reflect the official policy or position of any other author, agency, organization, employer or company, including the Company.</p>
+            <p>Comments published by users are their sole responsibility and the users will take full responsibility, liability and blame for any libel or litigation that results from something written in or as a direct result of something written in a comment. The Company is not liable for any comment published by users and reserves the right to delete any comment for any reason whatsoever.</p>
+            <h5>No Responsibility Disclaimer</h5>
+            <p>The information on the Service is provided with the understanding that the Company is not herein engaged in rendering legal, accounting, tax, or other professional advice and services. As such, it should not be used as a substitute for consultation with professional accounting, tax, legal or other competent advisers.</p>
+            <p>In no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever arising out of or in connection with your access or use or inability to access or use the Service.</p>
+            <h5>&quot;Use at Your Own Risk&quot; Disclaimer</h5>
+            <p>All information in the Service is provided &quot;as is&quot;, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, express or implied, including, but not limited to warranties of performance, merchantability and fitness for a particular purpose.</p>
+            <p>The Company will not be liable to You or anyone else for any decision made or action taken in reliance on the information given by the Service or for any consequential, special or similar damages, even if advised of the possibility of such damages.</p>
+            <h5>Contact Us</h5>
+            <p>If you have any questions about this Disclaimer, You can contact Us:</p>
+            <ul>
+            <li>By email: nswd.india@gmail.com</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Disclaimer Modal ends here -->
+
+
+<!-- Cookies Policy Modal starts here -->
+
+<div class="modal fade" id="cookiespolicy" tabindex="-1" aria-labelledby="cookiespolicy" aria-hidden="true">
+    <div class="modal-dialog  modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="cookiespolicy">Cookies Policy</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h5>Cookies Policy</h5>
+            <p>Last updated: April 02, 2021</p>
+            <p>This Cookies Policy explains what Cookies are and how We use them. You should read this policy so You can understand what type of cookies We use, or the information We collect using Cookies and how that information is used.
+            <p>Cookies do not typically contain any information that personally identifies a user, but personal information that we store about You may be linked to the information stored in and obtained from Cookies. For further information on how We use, store and keep your personal data secure, see our Privacy Policy.</p>
+            <p>We do not store sensitive personal information, such as mailing addresses, account passwords, etc. in the Cookies We use.</p>
+            <h5>Interpretation and Definitions</h5>
+            <h6>Interpretation</h6>
+            <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+            <h6>Definitions</h6>
+            <p>For the purposes of this Cookies Policy:</p>
+            <ul>
+                <li><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Cookies Policy) refers to Navjot Sohal Web Design.</li>
+                <li><strong>Cookies</strong> means small files that are placed on Your computer, mobile device or any other device by a website, containing details of your browsing history on that website among its many uses.</li>
+                <li><strong>Website</strong> refers to Navjot Sohal Web Design, accessible from <a href="nswd.in" rel="external nofollow noopener" target="_blank">nswd.in</a></li>
+                <li><strong>You</strong> means the individual accessing or using the Website, or a company, or any legal entity on behalf of which such individual is accessing or using the Website, as applicable.</li>
+            </ul>
+            <h5>The use of the Cookies</h5>
+            <h6>Type of Cookies We Use</h6>
+            <p>Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain on your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close your web browser.</p>
+            <p>We use both session and persistent Cookies for the purposes set out below:</p>
+        <ul>
+            <li>
+                <p><strong>Necessary / Essential Cookies</strong></p>
+                <p>Type: Session Cookies</p>
+                <p>Administered by: Us</p>
+                <p>Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.</p>
+            </li>
+            <li>
+                <p><strong>Functionality Cookies</strong></p>
+                <p>Type: Persistent Cookies</p>
+                <p>Administered by: Us</p>
+                <p>Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.</p>
+            </li>
+        </ul>
+            <h2>Your Choices Regarding Cookies</h2>
+            <p>If You prefer to avoid the use of Cookies on the Website, first You must disable the use of Cookies in your browser and then delete the Cookies saved in your browser associated with this website. You may use this option for preventing the use of Cookies at any time.</p>
+            <p>If You do not accept Our Cookies, You may experience some inconvenience in your use of the Website and some features may not function properly.</p>
+            <p>If You'd like to delete Cookies or instruct your web browser to delete or refuse Cookies, please visit the help pages of your web browser.</p>
+        <ul>
+            <li>
+                <p>For the Chrome web browser, please visit this page from Google: <a href="https://support.google.com/accounts/answer/32050" rel="external nofollow noopener" target="_blank">https://support.google.com/accounts/answer/32050</a></p>
+            </li>
+            <li>
+                <p>For the Internet Explorer web browser, please visit this page from Microsoft: <a href="http://support.microsoft.com/kb/278835" rel="external nofollow noopener" target="_blank">http://support.microsoft.com/kb/278835</a></p>
+            </li>
+            <li>
+                <p>For the Firefox web browser, please visit this page from Mozilla: <a href="https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored" rel="external nofollow noopener" target="_blank">https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored</a></p>
+            </li>
+            <li>
+                <p>For the Safari web browser, please visit this page from Apple: <a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" rel="external nofollow noopener" target="_blank">https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac</a></p>
+            </li>
+        </ul>
+        <p>For any other web browser, please visit your web browser's official web pages.</p>
+        <h6>More Information about Cookies</h6>
+        <h6>Contact Us</h6>
+        <p>If you have any questions about this Cookies Policy, You can contact us:</p>
+        <ul>
+            <li>By email: nswd.india@gmail.com</li>
+        </ul>
+        </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+</div>
+
+<!-- Cookies Policy Modal ends here -->
+
+
+<!-- Privacy Policy Modal starts here -->
+
+<div class="modal fade" id="privacypolicy" tabindex="-1" aria-labelledby="privacypolicy" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="privacypolicy">Privacy Policy</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h5>Privacy Policy</h5>
+            <p>Last updated: April 02, 2021</p>
+            <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
+            <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
+            <h5>Interpretation and Definitions</h5>
+            <h6>Interpretation</h6>
+            <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+            <h6>Definitions</h6>
+            <p>For the purposes of this Privacy Policy:</p>
+            <ul>
+                <li>
+                    <p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p>
+                </li>
+                <li>
+                    <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
+                </li>
+                <li>
+                    <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Navjot Sohal Web Design.</p>
+                </li>
+                <li>
+                    <p><strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</p>
+                </li>
+                <li>
+                    <p><strong>Country</strong> refers to: Punjab,  India</p>
+                </li>
+                <li>
+                    <p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
+                </li>
+                <li>
+                    <p><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</p>
+                </li>
+                <li>
+                    <p><strong>Service</strong> refers to the Website.</p>
+                </li>
+                <li>
+                    <p><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.</p>
+                </li>
+                <li>
+                    <p><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</p>
+                </li>
+                <li>
+                    <p><strong>Website</strong> refers to Navjot Sohal Web Design, accessible from <a href="www.nswd.in" rel="external nofollow noopener" target="_blank">www.nswd.in</a></p>
+                </li>
+                <li>
+                    <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
+                </li>
+            </ul>
+            <h5>Collecting and Using Your Personal Data</h5>
+            <h6>Types of Data Collected</h6>
+            <h7>Personal Data</h7>
+            <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
+            <ul>
+                <li>
+                    <p>Email address</p>
+                </li>
+                <li>
+                    <p>First name and last name</p>
+                </li>
+                <li>
+                    <p>Phone number</p>
+                </li>
+                <li>
+                    <p>Usage Data</p>
+                </li>
+            </ul>
+            <h3>Usage Data</h3>
+            <p>Usage Data is collected automatically when using the Service.</p>
+            <p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+            <p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
+            <p>We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.</p>
+            <h3>Tracking Technologies and Cookies</h3>
+            <p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:</p>
+            <ul>
+                <li><strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.</li>
+                <li><strong>Web Beacons.</strong> Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</li>
+            </ul>
+            <p>Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. You can learn more about cookies on <a href="https://www.termsfeed.com/blog/cookies/#What_Are_Cookies" target="_blank">TermsFeed website</a> article.</p>
+            <p>We use both Session and Persistent Cookies for the purposes set out below:</p>
+            <ul>
+                <li>
+                    <p><strong>Necessary / Essential Cookies</strong></p>
+                    <p>Type: Session Cookies</p>
+                    <p>Administered by: Us</p>
+                    <p>Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.</p>
+                </li>
+                <li>
+                    <p><strong>Cookies Policy / Notice Acceptance Cookies</strong></p>
+                    <p>Type: Persistent Cookies</p>
+                    <p>Administered by: Us</p>
+                    <p>Purpose: These Cookies identify if users have accepted the use of cookies on the Website.</p>
+                </li>
+                <li>
+                    <p><strong>Functionality Cookies</strong></p>
+                    <p>Type: Persistent Cookies</p>
+                    <p>Administered by: Us</p>
+                    <p>Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.</p>
+                </li>
+            </ul>
+            <p>For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.</p>
+            <h6>Use of Your Personal Data</h6>
+            <p>The Company may use Personal Data for the following purposes:</p>
+            <ul>
+                <li>
+                    <p><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</p>
+                </li>
+                <li>
+                    <p><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</p>
+                </li>
+                <li>
+                    <p><strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</p>
+                </li>
+                <li>
+                    <p><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</p>
+                </li>
+                <li>
+                    <p><strong>To provide You</strong> with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.</p>
+                </li>
+                <li>
+                    <p><strong>To manage Your requests:</strong> To attend and manage Your requests to Us.</p>
+                </li>
+                <li>
+                    <p><strong>For business transfers:</strong> We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.</p>
+                </li>
+                <li>
+                    <p><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.</p>
+                </li>
+                </ul>
+                    <p>We may share Your personal information in the following situations:</p>
+                <ul>
+                    <li><strong>With Service Providers:</strong> We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You.</li>
+                    <li><strong>For business transfers:</strong> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</li>
+                    <li><strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</li>
+                    <li><strong>With business partners:</strong> We may share Your information with Our business partners to offer You certain products, services or promotions.</li>
+                    <li><strong>With other users:</strong> when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.</li>
+                    <li><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your consent.</li>
+                </ul>
+                <h6>Retention of Your Personal Data</h6>
+                    <p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
+                    <p>The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.</p>
+                <h6>Transfer of Your Personal Data</h6>
+                    <p>Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.</p>
+                    <p>Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.</p>
+                    <p>The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.</p>
+                <h6>Delete Your Personal Data</h6>
+                <p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.</p>
+                <p>Our Service may give You the ability to delete certain information about You from within the Service.</p>
+                <p>You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.</p>
+                <p>Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.</p>
+                <h6>Disclosure of Your Personal Data</h6>
+                <h7>Business Transactions</h7>
+                <p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
+                <h7>Law enforcement</h7>
+                <p>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
+                <h7>Other legal requirements</h7>
+                <p>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p>
+                <ul>
+                    <li>Comply with a legal obligation</li>
+                    <li>Protect and defend the rights or property of the Company</li>
+                    <li>Prevent or investigate possible wrongdoing in connection with the Service</li>
+                    <li>Protect the personal safety of Users of the Service or the public</li>
+                    <li>Protect against legal liability</li>
+                </ul>
+                <h2>Security of Your Personal Data</h2>
+                    <p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
+                <h5>Children's Privacy</h5>
+                    <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p>
+                    <p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p>
+                <h5>Links to Other Websites</h5>
+                    <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
+                    <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+                <h5>Changes to this Privacy Policy</h5>
+                <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
+                <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.</p>
+                <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+                <h5>Contact Us</h5>
+                <p>If you have any questions about this Privacy Policy, You can contact us:</p>
+                <ul>
+                    <li>By email: nswd.india@gmail.com</li>
+                </ul>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Privacy Policy Modal ends here -->
+
+
+
+
+
 
 
 
@@ -1004,11 +1521,11 @@
     var clock = new Date().getHours();
     
     function checkStatus(){
-    if(navigator.onLine == true && (clock < 9 || clock < 17))
+    if(navigator.onLine == true && (clock > 9 || clock < 17))
         {
             document.getElementById("onlineLed").style.display="block";
         }
-    else if( (clock < 9 || clock > 19)  && navigator.onLine == true)
+    else if( (clock > 17 || clock < 20)  && navigator.onLine == true)
         {
             document.getElementById("busyLed").style.display="block";
         }
@@ -1036,11 +1553,10 @@
     }
 </script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
 </body>
 <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 <script src="js/particle.js"></script>
-
 </html>
