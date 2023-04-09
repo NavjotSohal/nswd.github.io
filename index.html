@@ -972,8 +972,10 @@
                         appreciated. Kindly write in company's email for suggestions.
                     </p>
                     <div class="newsletter-pack">
-                        <input type="email" class="form-control nl-fld" placeholder="name@example.com"/>
-                        <button class="float-right nl-btn">Sign up for Newsletter</button>
+                        <input id="newsLetterFld" type="email" class="form-control nl-fld" placeholder="name@example.com"/>
+                        <p id="nlblank">Please fill your email address.</p>
+                        <p id="nlalert-txt">Subscription Added.</p>
+                        <button class="float-right nl-btn" onclick="newsLtrAlert()">Subscribe</button>
                     </div>    
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3 col-xl-3 col-xxl-3 text-white text-center">
@@ -1505,7 +1507,26 @@
 
 
 
+<script>
 
+
+function newsLtrAlert(){
+
+    var newstext = document.getElementById('newsLetterFld').value;
+
+    if( newstext == ""){
+        document.getElementById('nlblank').style.display="inline-block";
+        document.getElementById('nlalert-txt').style.display="none";
+    }
+    else{
+            document.getElementById('nlalert-txt').style.display="inline-block";
+            document.getElementById('nlblank').style.display="none";
+    }
+}
+
+
+
+</script>
 
 
 

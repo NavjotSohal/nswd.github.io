@@ -333,16 +333,21 @@ section{
     font-weight:600;
     float:right;
     float:clear;
-
 }
-
 .newsletter-pack ::placeholder{
     color:#ffffff !important;
     font-size:14px;
 }
-
-
-
+#nlalert-txt{
+    display: none;
+    font-size:10px;
+    font-weight:400;
+}
+#nlblank{
+    display: none;
+    font-size:10px;
+    font-weight:400;
+}
 a{
     text-decoration: none !important;
 }
