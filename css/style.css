@@ -23,6 +23,7 @@ body{
 }
 .contain{
     scroll-snap-type: y mandatory;
+    margin: 0;
     overflow-y: scroll;
     height:100vh;
 }
@@ -103,7 +104,7 @@ body{
 .abt-txt-row{
     z-index:11;
     height:100%;
-    padding: 50px 0px;
+    padding: 25px 0px 50px;
 }
 .pf-h-txt{
     color:#fb4a1e;
