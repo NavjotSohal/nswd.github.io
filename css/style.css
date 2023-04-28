@@ -256,7 +256,10 @@ section{
 #edu-interest{
     background-image: url(../img/commit.svg);   
 }
-
+.cust-mdl-btn{
+    background:#FF3131 !important;
+    border:none !important;
+}
 .foot-txt-hds{
     font-size: 13px;
     font-weight: 600;
@@ -273,6 +276,7 @@ section{
     font-weight:400;
     padding-bottom:15px;
     padding-left:0px !important;
+    cursor: pointer;
 }
 #footer{
     position:relative;
@@ -314,7 +318,7 @@ section{
     background-repeat: no-repeat; */
 }
 .foot-comp-intro{
-    font-size:9.5px;
+    font-size:10px;
     width:100%;
 }
 .nl-fld{
@@ -779,7 +783,6 @@ text-align: center;
 .cpyrt-txt{
     text-align:center;
 }
-
 
 @keyframes bar{
 	0%{
