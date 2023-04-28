@@ -293,7 +293,7 @@ section{
     width: 200px;
 }
 .signup-pack{
-    padding:50px 0px 50px;
+    padding:100px 0px 50px;
 }
 .signup-box{
     padding:7px 12px 7px;
@@ -310,7 +310,7 @@ section{
     bottom:0;
     padding-top:10px;
     left:50%;
-    top:50%;
+    top:60%;
     width: 100%;
     height: 40%;
     transform:translate(-50%,-11%);
@@ -320,6 +320,8 @@ section{
 .foot-comp-intro{
     font-size:10px;
     width:100%;
+    font-family: inherit;
+    font-weight: 600;
 }
 .nl-fld{
     background:transparent !important;
@@ -505,6 +507,7 @@ text-align: center;
     border-radius:3px;
     font-weight:500;
     align-self: end;
+    cursor: pointer;
 }
 
 .ne-arrow{
@@ -588,7 +591,7 @@ text-align: center;
     box-sizing: border-box;
     padding: 20px;
     color: #fff;
-    z-index: 3;
+    z-index: 1;
 }
 .port-card .box .content .wrap p{
     position: relative;
@@ -745,13 +748,13 @@ text-align: center;
 .blobs-def-div{
     display: block;
 }
-/* .footer-credit-links{
+.footer-credit-links{
     text-decoration:none;
     color:inherit;
     text-transform: capitalize;
     font-size:12.5px;
     font-weight:500;
-} */
+}
 .footer-credit-links:visited {
     color:inherit;
 } 
@@ -767,6 +770,10 @@ text-align: center;
     font-size:15px;
     color:#212529;
     
+}
+.redirect-btn{
+    cursor:pointer !important;
+    z-index:9;
 }
 .footer-comp-info-pack{
     background:#ffffff;
